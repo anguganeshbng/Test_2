@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 2, Errors: 0, Skipped: 4, Time elapsed: 58.48 s <<< FAILURE! -- in TestSuite
+com.ui.test.runner.TestNGRunner.runScenario["Navigate to multiple pages", "Title of your feature"](4) -- Time elapsed: 4.935 s <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertFalse(Assert.java:65)
+	at org.junit.Assert.assertFalse(Assert.java:75)
+	at com.ui.test.steps.LoginStepDef.navigating(LoginStepDef.java:40)
+	at ✽.Navigating "https://www.nitt.edu/"(file:///C:/Users/aganesh/eclipse-workspace/Test/./Features/Login.feature:36)
+
+com.ui.test.runner.TestNGRunner.runScenario["Navigate to yahoo", "Title of your feature"](7) -- Time elapsed: 9.429 s <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertFalse(Assert.java:65)
+	at org.junit.Assert.assertFalse(Assert.java:75)
+	at com.ui.test.steps.LoginStepDef.navigating(LoginStepDef.java:40)
+	at ✽.Navigating "https://www.yahoo.com/"(file:///C:/Users/aganesh/eclipse-workspace/Test/./Features/Login.feature:31)
+
